@@ -1,0 +1,13 @@
+{
+  "require": {
+    "phpmailer/phpmailer": "^6.6",
+    "sendgrid/sendgrid": "~7"
+  },
+  "scripts": {
+    "start": "php -S localhost:8000"
+  },
+  "config": {
+    "process-timeout": 0,
+    "sort-packages": true
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "require": {
+	"http:://packages.phundament.com composer.phar require schmunk42/web-user-behavior",
+	}
+}

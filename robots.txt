@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /administrator/
+Disallow: /cache/
+Disallow: /cli/
+Disallow: /components/
+Disallow: /old/
+Disallow: /installation/
+Disallow: /language/
+Disallow: /libraries/
+Disallow: /logs/
+Disallow: /media/
+Disallow: /modules/
+Disallow: /plugins/
+Disallow: /templates/system/
+Disallow: /tmp/
+
+
+
+#Begin Attracta SEO Tools Sitemap. Do not remove
+#sitemap: http://cdn.attracta.com/sitemap/5712653.xml.gz
+#End Attracta SEO Tools Sitemap. Do not remove

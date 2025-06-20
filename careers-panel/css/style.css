@@ -1,0 +1,229 @@
+body {
+	background: #113F6C none repeat scroll 0% 0%;
+	font-family:'Open Sans', sans-serif;
+	font-size:14px;
+	line-height:1.6em;
+	color: #000;
+}
+
+a:active {
+	outline:0;
+}
+
+.clear {
+	clear:both;
+}
+
+h1,h2, h3, h4, h5, h6 {
+	font-family:'Open Sans', Arial, sans-serif;
+	font-weight:300;
+	color:#333;
+	margin-bottom: 20px;
+}
+h1, h2{ text-align:center; margin-top: 0;}
+/* ===================================
+2. layout
+==================================== */
+
+.container {
+	padding:0 20px 0 20px;
+	position:relative;
+}
+#content {
+	position:relative;
+	background:#fff;
+	margin:10px 0;
+	padding:0;
+	border-radius: 4px;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
+	 width: 900px;
+	 margin:0 auto;
+}
+.header-area {background:#fff; border-bottom:1px solid  #613A19; padding:5px 0;}
+.logo{ background:url(../img/logo.jpg) left center no-repeat; height: 100px; width: 422px; margin:0 auto;}
+
+.dealer-form{padding: 20px;}
+.form-row  label{ display:block; margin:0; padding: 5px 0;}
+.tos label {
+	display:inline-block;
+    height:32px;
+	padding-left: 15px;
+	line-height: 32px;
+}
+
+.checkbox_vm{ width: 25%; float: left;}
+.formed{ margin: 0 auto; width: 70%;}
+.dealer-form input[type="checkbox"]{
+
+    vertical-align: middle;
+	/* Double-sized Checkboxes */
+	  -ms-transform: scale(2); /* IE */
+	  -moz-transform: scale(2); /* FF */
+	  -webkit-transform: scale(2); /* Safari and Chrome */
+	  -o-transform: scale(2); /* Opera */
+	  padding: 10px;
+}
+
+input.cheki{ width: 90px;}
+
+.dealer-form input[type="text"], .dealer-form select{
+  width: 100%;
+  max-width: 650px;
+  border: 1px solid #ccc;
+  min-height: 30px;
+  padding :5px;
+  font-size:13px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+}
+.dealer-form  input[type="submit"] {
+    width: 250px;
+    font-size: 1.3em;
+    background: #F8991E none repeat scroll 0% 0%;
+    text-align: center;
+    color: #FFF;
+	padding:0;
+	height: 56px;
+	margin:0;
+    border: none;
+   outline: none;
+    font-weight: 700;
+}
+
+
+.dealer-form input[type="submit"]:hover{
+		color:#FFF;
+		background:#939090;
+		transition: .5s all;
+		-webkit-transition: .5s all;
+		-moz-transition: .5s all;
+		-o-transition: .5s all;
+		-ms-transition: .5s all;
+	}
+.user-login-btns{border-top:1px groove #7EA6BA; margin:25px 0 56px; padding-top: 36px; display: block;}
+
+.footer-wrap{
+	background: #EAEAEA none repeat scroll 0% 0%;
+	width: 100%;
+	margin-top: 3px;
+}
+.footer_bg{
+	background:#1F649C;
+	color:#563930;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.footer{
+	margin: 15px 0;
+	padding: 0;
+	color:#000;
+}
+
+.footer li a, .footer p a{color:#ccc; }
+.footer h4{color: #fff; text-align: center;}
+
+.footer-grid { width: 460px; margin:0 auto; padding:0;}
+.widgetheading {
+	width:100%;
+
+	padding:0;
+}
+
+#bottom .widgetheading {
+	position: relative;
+	border-bottom: #e6e6e6 1px solid;
+	padding-bottom: 9px;
+}
+
+aside .widgetheading {
+	position: relative;
+	border-bottom: #e9e9e9 1px solid;
+	padding-bottom: 9px;
+}
+
+footer .widgetheading {
+	position: relative;
+}
+
+footer .widget .social-network {
+	position:relative;
+}
+
+
+#bottom .widget .widgetheading span, aside .widget .widgetheading span, footer .widget .widgetheading span {
+	position: absolute;
+	width: 60px;
+	height: 1px;
+	bottom: -1px;
+	right:0;
+
+}
+
+.copyright {
+	text-align:left;
+	font-size:12px;
+}
+.aligncenter{
+	text-align:center;
+}
+
+.aligncenter span{
+	margin-left:0;
+}
+
+.floatright {
+	float:right;
+}
+
+.floatleft {
+	float:left;
+}
+
+.floatnone {
+	float:none;
+}
+
+.aligncenter {
+	text-align:center;
+}
+
+
+
+/* =============================
+21. Media queries
+============================= */
+@media (max-width: 1024px) {
+.adsbygoogle{ width: 100%; }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+
+}
+
+@media (max-width: 767px) {
+
+  body {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+
+
+}
+
+@media (max-width: 480px) {
+	.bottom-article a.pull-right {
+		float:left;
+		margin-top:20px;
+	}
+}
+
+@media (max-width: 360px) {
+
+}
