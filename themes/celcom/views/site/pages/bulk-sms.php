@@ -69,9 +69,9 @@ Yii::app()->clientScript
       "name": "Celcom Africa"
     }
   }
-  }
-  </script>
- <script type="application/ld+json">
+}
+</script>
+<script type="application/ld+json">
     {
         "@context": "https://schema.org",
         
@@ -82,7 +82,7 @@ Yii::app()->clientScript
             "name": "What is bulk SMS?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Bulk SMS is the process of sending large volumes of SMS messages to multiple recipients simultaneously. It’s widely used for marketing, alerts, notifications, and promotional messages by businesses, NGOs, schools, and government agencies."
+                "text": "Bulk SMS is the process of sending large volumes of SMS messages to multiple recipients simultaneously. It's widely used for marketing, alerts, notifications, and promotional messages by businesses, NGOs, schools, and government agencies."
             }
     },
     {
