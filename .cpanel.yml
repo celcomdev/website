@@ -1,0 +1,12 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/celcomaf/public_html/
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R themes $DEPLOYPATH
+    - /bin/cp -R protected $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R vendor $DEPLOYPATH
+    # Add more directories/files as needed, but do NOT include .git or .env 
