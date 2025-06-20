@@ -192,7 +192,12 @@ class Mail
             $mail->addCc($data['cc']);
         }
 
-        $sendGrid = new \SendGrid('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');
+        // Use environment variable for SendGrid API key for better security
+        $sendGridApiKey = getenv('SENDGRID_API_KEY');
+        if (!$sendGridApiKey) {
+            throw new \Exception('SendGrid API key not set in environment variables.');
+        }
+        $sendGrid = new \SendGrid($sendGridApiKey);
 
         $response = $sendGrid->send($mail);
 
